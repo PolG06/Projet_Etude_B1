@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="page-garde" id="pageGarde">
+        <div class="contenu-garde">
+            <img src="image/logo.png" alt="Logo du projet">
+            <h1>Inégalités d'accès à Internet</h1>
+            <p>Projet d'Étude 2024-2025</p>
+            <button onclick="fermerPageGarde()">Entrer</button>
+        </div>
+    </div>
+
+    <header>
+        <img src="image/logo.png" alt="">
+        <h1>Inégalités d'accès internet Projet d'Étude 2024-2025</h1>
+        <a href="#">Support</a>
+    </header>
+
+
+    
+
+    <article>
+
+        <h1>Graphique des Inégalités</h1>
+
+        <section>
+
+            <div class="liste">
+                <select class="liste_pays" id="pays" >
+                    <option value="">--Pays Désiré--</option>
+                    <option value="usa">USA</option>
+                    <option value="japon">Japon</option>
+                    <option value="france">France</option>
+                    <option value="bangladesh">Bangladesh</option>
+                    <option value="kenya">Kenya</option>
+                    <option value="burundi">Burundi</option>
+                </select>
+
+                <button id="toggle"> Valider </button>
+            </div>
+            <div class="graphique">
+                <canvas id="internetChart"></canvas>
+            </div>
+        </section>
+
+        <div class="pays_diff">
+            <div class="usa">
+            </div>
+            <div class="japon">
+            </div>
+            <div class="france">
+            </div>
+            <div class="bangladesh">
+            </div>
+            <div class="kenya">
+            </div>
+            <div class="burundi">
+            </div>
+        </div>
+
+        <div class="boutons">  
+            <div class="action">
+                <h3>Investissement dans les petites infrastructures:</h3>
+                <button id="increase">+100 000 WLC</button>
+                <button id="increase2">+50 datacenters</button>
+                <button id="increase3">+120 000 Routeur</button>
+                <button id="increase4">+150 000 Répeteur wifi</button>
+            </div>
+            <div class="action">
+                <h3>Investissement dans des moyens supplémentaires</h3>
+                <button id="increase5">+800 Drône relais wifi</button>
+                <button id="increase6">+25 000 Ingénieur informaticien</button>
+                <button id="increase7">+1000 Cybercafé relais</button>
+                <button id="increase8">+15 Satellite Internet</button>
+            </div>
+            <div class="action">
+                <h3>Mise en place de grandes technologies </h3>
+                <br>
+                <button id="increase9" >Passage à la fibre optique</button>
+                <button id="increase0" >Passage à la 5G</button>
+            </div>
+            <div class="action2">
+                <div class="info" style="background-color: white;" id="content" >
+                    <!--Image du drapeau-->
+                    <div id="image_sortie"></div>
+                    <p id="sortie"></p>
+                </div>
+            </div>
+        </div>    
+    </article>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+
+
+<!--Faire :rendre les boutons lié aux infos, finir la déco-->

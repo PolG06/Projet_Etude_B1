@@ -1,0 +1,254 @@
+.page-garde {
+    position: fixed;
+    z-index: 9999;
+    background: linear-gradient(145deg, #185a9d, #43cea2);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.contenu-garde {
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contenu-garde img {
+    width: 180px;
+    margin-bottom: 30px;
+    filter: drop-shadow(0 0 10px #000);
+}
+
+.contenu-garde h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.contenu-garde p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.contenu-garde button {
+    padding: 12px 30px;
+    background-color: #00d1b2;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    transition: background 0.3s;
+}
+
+.contenu-garde button:hover {
+    background-color: #00796b;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+
+
+
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background: rgba(40, 95, 158, 0.75);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    background: #00d1b2;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: 0.3s;
+    margin-bottom: 10px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+header a:hover {
+    background:#00796b;
+}
+
+
+header img{
+    width: 150px;
+    filter: invert();
+}
+
+header h1{
+    margin-right: 50px;
+    color: #0ab9a5;
+}
+
+header a{
+    margin-top: 30px;
+}
+
+body {
+    background-image: url(../image/background.jpg);
+    background-size: cover;
+}
+
+div.graphique {
+    margin: auto;
+    background: white;
+    padding: 20px;
+    width: 650px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    margin-left: 100px;
+}
+
+article h1{
+    color: white;
+    text-align: center;
+}
+
+article{
+    background: rgba(33, 104, 151, 0.65);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    min-height: 10vh;
+    padding-bottom: 50px;
+
+}
+
+
+div.boutons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 30px;
+    margin-top: 100px;
+}
+
+#toggle {
+    background: linear-gradient(135deg, #00d1b2, #34c06e);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 100px   ;
+    transition: 0.3s ease-in-out;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+div.action2{
+    border-radius: 12px;
+    width: 400px;
+    text-align: center;
+}
+
+div.action {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    padding: 20px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+div.action h3 {
+    color: #00d1b2;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+div.action button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    background: #00d1b2;
+    border: none;
+    color: white;
+    font-size: 14px;
+    border-radius: 8px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+div.action button.desactivated {
+    background: #00796b;
+    cursor: not-allowed;
+}
+
+div.action button:hover {
+    background: #00796b;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #00d1b2;
+}
+
+button:active {
+    transform: scale(0.97);
+}
+
+
+section{
+    display:flex;
+}
+
+select{                     
+    width: 350px;
+    height: 45px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 100px;
+    border-radius: 10px;
+    margin-bottom: 80px;
+    margin-top: 100px;
+    border: 2px solid #1f693e;
+    background-color: rgba(255, 255, 255, 0.9);
+    font-size: 16px;
+    color: #2c3e50;
+    outline: none;
+    transition: 0.3s;
+}
+
+.liste_pays{
+    width: 300px;
+    text-align: center;
+}
+
+.info{
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    padding: 20px;
+    width: 350px;
+    height: 620px;
+    margin-right: 100px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
+    margin-top: -420px;
+}

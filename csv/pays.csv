@@ -1,0 +1,8 @@
+nom_pays,image_drapeau,PIB,nbr_habi,nbr_routeurs,nbr_WLC,data_centers,nbr_repeteurs,nbr_cables_fibre,nbr_drones,nbr_cybercafes,nbr_ingenieurs,nbr_satellites,fibre_optique,alacinqg
+USA,../image/USA.png,27720,341,160000000,130000,2000,200000,610000,100,2000,350000,8500,True,True
+Japon,../image/Japon.png,4204,125,50000000,80000,230,120000,450000,300,1200,323000,900,True,True
+France,../image/France.png,3052,68,40000000,78000,300,135000,390000,250,600,187000,800,True,True
+Bangladesh,../image/Bangladesh.png,437,171,10000000,22000,70,13000,26000,400,80,27000,80,True,False
+Kenya,../image/Kenya.png,108,55.34,4000000,30800,50,20000,24000,650,90,14000,55,True,True
+Burundi,../image/Burundi.png,2642,13.692,1200000,18000,10,6000,1000,400,70,11500,10,False,False
+
